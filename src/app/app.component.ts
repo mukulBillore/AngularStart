@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularStart';
+  title = 'hello angular by Mukul Billore ';
+  imageUrl= "E:\Angular\AngularStart\src\assets"
+  ngOnInIt():void {
+    this.title = "hello mukul";
+  }
 }
